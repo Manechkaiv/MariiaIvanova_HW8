@@ -1,0 +1,2197 @@
+11:05.147 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+11:06.83 [io.github.bonigarcia.wdm.WebDriverManager:WARN]: There was an error managing chromedriver (latest version) (null) ... trying again using latest driver stored in cache
+11:06.493 [io.github.bonigarcia.wdm.WebDriverManager:INFO]: Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+11:07.353 [io.github.bonigarcia.wdm.online.Downloader:INFO]: Downloading https://chromedriver.storage.googleapis.com/85.0.4183.87/chromedriver_win32.zip
+11:09.276 [io.github.bonigarcia.wdm.online.Downloader:INFO]: Extracting binary from compressed file chromedriver_win32.zip
+11:09.590 [io.github.bonigarcia.wdm.WebDriverManager:INFO]: Exporting webdriver.chrome.driver as C:\Users\ПК\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+11:09.592 [JDI:INFO]: Download driver: 'CHROME X32' successfully
+11:09.808 [JDI:ERROR]: >>> JdiSite.jdiHomePage (url=https://jdi-testing.github.io/jdi-light/index.html; title=)
+23:17.213 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+23:17.926 [JDI:INFO]: Use driver path: C:\driver\chromedriver.exe
+23:18.441 [JDI:ERROR]: >>> JdiSite.jdiHomePage (url=https://jdi-testing.github.io/jdi-light/index.html; title=)
+25:35.65 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+25:35.514 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+26:32.287 [JDI:INFO]: Page 'Jdi Home Page' opened
+26:32.383 [JDI:STEP]: Click on 'User Icon' (JdiHomePage.userIcon (id='user-icon'))
+26:33.343 [JDI:STEP]: Login as hw8.data.entities.User@cd1bc3 (JdiHomePage.loginForm (smart: #login-form))
+26:35.543 [JDI:STEP]: Assert that 'User Name' text is "ROMAN IOVLEV" (JdiHomePage.userName (id='user-name'))
+26:45.782 [JDI:ERROR]: >>> JdiHomePage.userName (id='user-name')
+26:47.343 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-03-26-45FailedText.jpg
+26:47.359 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/index.html
+26:47.359 [JDI:ERROR]: Failed actions chain: TextAssert.text(Matcher:'is "ROMAN IOVLEV"') > UIElement.getText() > UIElement.text(TextTypes:'SMART_TEXT') > UIElement.text(TextTypes:'TEXT')
+28:59.608 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+29:00.67 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+29:15.721 [JDI:INFO]: Page 'Jdi Home Page' opened
+29:15.858 [JDI:STEP]: Click on 'User Icon' (JdiHomePage.userIcon (id='user-icon'))
+29:16.690 [JDI:STEP]: Login as hw8.data.entities.User@cd1bc3 (JdiHomePage.loginForm (smart: #login-form))
+29:18.961 [JDI:STEP]: Assert that 'User Name' text is "ROMAN IOVLEV" (JdiHomePage.userName (id='user-name'))
+29:19.157 [JDI:STEP]: Assert that 'User Name' text is "ROMAN IOVLEV" (JdiHomePage.userName (id='user-name'))
+29:19.307 [JDI:STEP]: Assert that 'User Name' is enabled (JdiHomePage.userName (id='user-name'))
+29:19.643 [JDI:STEP]: Assert that 'User Name' is displayed (JdiHomePage.userName (id='user-name'))
+30:21.889 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+30:22.338 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+30:34.08 [JDI:INFO]: Page 'Jdi Home Page' opened
+30:34.41 [JDI:STEP]: Click on 'User Icon' (JdiHomePage.userIcon (id='user-icon'))
+30:34.706 [JDI:STEP]: Login as hw8.data.entities.User@11fcb6f (JdiHomePage.loginForm (smart: #login-form))
+30:36.659 [JDI:STEP]: Assert that 'User Name' text is "ROMAN IOVLEV" (JdiHomePage.userName (id='user-name'))
+30:36.822 [JDI:STEP]: Assert that 'User Name' text is "ROMAN IOVLEV" (JdiHomePage.userName (id='user-name'))
+30:36.968 [JDI:STEP]: Assert that 'User Name' is enabled (JdiHomePage.userName (id='user-name'))
+30:37.294 [JDI:STEP]: Assert that 'User Name' is displayed (JdiHomePage.userName (id='user-name'))
+55:54.453 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+55:54.943 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+56:45.670 [JDI:INFO]: Page 'Jdi Home Page' opened
+56:45.710 [JDI:STEP]: Click on 'User Icon' (JdiHomePage.userIcon (id='user-icon'))
+56:46.596 [JDI:STEP]: Login as hw8.data.entities.User@1dc8014 (JdiHomePage.loginForm (smart: #login-form))
+56:48.838 [JDI:STEP]: Assert that 'User Name' text is "ROMAN IOVLEV" (JdiHomePage.userName (id='user-name'))
+56:49.28 [JDI:STEP]: Assert that 'User Name' text is "ROMAN IOVLEV" (JdiHomePage.userName (id='user-name'))
+56:49.177 [JDI:STEP]: Assert that 'User Name' is enabled (JdiHomePage.userName (id='user-name'))
+56:49.607 [JDI:STEP]: Assert that 'User Name' is displayed (JdiHomePage.userName (id='user-name'))
+16:43.491 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+16:43.941 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+16:57.551 [JDI:INFO]: Page 'Jdi Home Page' opened
+16:57.910 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+16:58.634 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@18948cd (JdiSite.loginForm (css='#login-form'))
+17:31.369 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+17:31.809 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+17:43.20 [JDI:INFO]: Page 'Jdi Home Page' opened
+17:43.360 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+17:44.104 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@136dff4 (JdiSite.loginForm (css='#login-form'))
+40:01.851 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+40:02.454 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+41:30.570 [JDI:INFO]: Page 'Jdi Home Page' opened
+41:32.336 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+41:35.862 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+41:37.253 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@156f5f8 (JdiSite.loginForm (css='#login-form'))
+41:41.324 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+41:41.453 [JDI:STEP]: >>> HOME
+41:41.466 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+41:41.585 [JDI:STEP]: >>> CONTACT FORM
+41:41.595 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+41:41.726 [JDI:STEP]: >>> SERVICE
+41:41.738 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+41:41.855 [JDI:STEP]: >>> METALS & COLORS
+41:41.865 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+41:44.826 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:44.953 [JDI:STEP]: >>> 1
+41:44.960 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:45.407 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:45.559 [JDI:STEP]: >>> 3
+41:45.567 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:45.677 [JDI:STEP]: >>> 3
+41:45.687 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:45.873 [JDI:STEP]: >>> 5
+41:45.880 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:45.994 [JDI:STEP]: >>> 5
+41:46.04 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:46.129 [JDI:STEP]: >>> 7
+41:46.141 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:46.951 [JDI:STEP]: >>> 7
+41:46.960 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:47.97 [JDI:STEP]: >>> 2
+41:47.107 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:47.251 [JDI:STEP]: >>> 2
+41:47.259 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:47.634 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:47.841 [JDI:STEP]: >>> 4
+41:47.852 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:47.993 [JDI:STEP]: >>> 4
+41:48.03 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:48.171 [JDI:STEP]: >>> 6
+41:48.185 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:48.446 [JDI:STEP]: >>> 6
+41:48.456 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:48.592 [JDI:STEP]: >>> 8
+41:48.600 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+41:48.739 [JDI:STEP]: >>> 8
+41:49.114 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+41:49.248 [JDI:STEP]: >>> Water
+41:49.255 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+41:49.629 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+41:49.760 [JDI:STEP]: >>> Earth
+41:49.766 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+41:49.883 [JDI:STEP]: >>> Wind
+41:49.892 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+41:50.03 [JDI:STEP]: >>> Fire
+41:50.10 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+41:50.412 [JDI:STEP]: Select 'Red' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+41:52.515 [JDI:STEP]: Select 'Gold' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+41:54.571 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+41:54.793 [JDI:STEP]: >>> Vegetables
+41:54.799 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+41:56.864 [JDI:STEP]: Select 'Cucumber' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+41:57.987 [JDI:STEP]: Check that 'Form' values are: MetalsAndColorsData(summary:[I@bc224d; elements:[Ljava.lang.String;@1cd7ea5; color:Red; metals:Gold; vegetables:[Ljava.lang.String;@2d92c4) (MetalsColorsPage.form (css='.form'))
+41:58.581 [JDI:STEP]: Submit 'Form' and press 'submit' button (MetalsColorsPage.form (css='.form'))
+41:59.376 [JDI:STEP]: Assert that 'Logs List' size 7 (MetalsColorsPage.logsList (css='.panel-body-list.logs li'))
+42:00.36 [JDI:STEP]: Assert that 'Results List' size 5 (MetalsColorsPage.resultsList (css='.panel-body-list.results li'))
+42:01.225 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:01.353 [JDI:STEP]: >>> Summary: 3
+42:01.360 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:01.481 [JDI:STEP]: >>> Elements: Water, Fire
+42:01.488 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:01.622 [JDI:STEP]: >>> Color: Red
+42:01.629 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:01.764 [JDI:STEP]: >>> Metal: Gold
+42:01.775 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:01.903 [JDI:STEP]: >>> Vegetables: Cucumber
+42:01.932 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+42:03.126 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+42:05.261 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:05.385 [JDI:STEP]: >>> HOME
+42:05.393 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:05.519 [JDI:STEP]: >>> CONTACT FORM
+42:05.527 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:05.656 [JDI:STEP]: >>> SERVICE
+42:05.664 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:05.823 [JDI:STEP]: >>> METALS & COLORS
+42:05.832 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:07.547 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:07.671 [JDI:STEP]: >>> 1
+42:07.680 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:08.213 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:08.376 [JDI:STEP]: >>> 3
+42:08.386 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:08.503 [JDI:STEP]: >>> 3
+42:08.515 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:08.645 [JDI:STEP]: >>> 5
+42:08.653 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:08.784 [JDI:STEP]: >>> 5
+42:08.794 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:08.964 [JDI:STEP]: >>> 7
+42:08.987 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:09.114 [JDI:STEP]: >>> 7
+42:09.122 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:09.290 [JDI:STEP]: >>> 2
+42:09.297 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:09.403 [JDI:STEP]: >>> 2
+42:09.410 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:09.554 [JDI:STEP]: >>> 4
+42:09.563 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:09.667 [JDI:STEP]: >>> 4
+42:09.679 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:09.830 [JDI:STEP]: >>> 6
+42:09.840 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:09.963 [JDI:STEP]: >>> 6
+42:09.972 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:10.114 [JDI:STEP]: >>> 8
+42:10.124 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:10.245 [JDI:STEP]: >>> 8
+42:10.292 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:11.611 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:11.745 [JDI:STEP]: >>> Water
+42:11.754 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:11.886 [JDI:STEP]: >>> Earth
+42:11.897 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+42:12.419 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:12.548 [JDI:STEP]: >>> Wind
+42:12.559 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+42:13.31 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:13.158 [JDI:STEP]: >>> Fire
+42:13.162 [JDI:STEP]: Select 'Green' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+42:15.596 [JDI:STEP]: Select 'Silver' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+42:17.873 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+42:18.150 [JDI:STEP]: >>> Vegetables
+42:18.153 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+42:20.311 [JDI:STEP]: Select 'Tomato' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+42:21.548 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+42:22.825 [JDI:STEP]: Check that 'Form' values are: MetalsAndColorsData(summary:[I@1839695; elements:[Ljava.lang.String;@1a6a494; color:Green; metals:Silver; vegetables:[Ljava.lang.String;@14c5f5e) (MetalsColorsPage.form (css='.form'))
+42:23.408 [JDI:STEP]: Submit 'Form' and press 'submit' button (MetalsColorsPage.form (css='.form'))
+42:24.182 [JDI:STEP]: Assert that 'Logs List' size 7 (MetalsColorsPage.logsList (css='.panel-body-list.logs li'))
+42:24.747 [JDI:STEP]: Assert that 'Results List' size 5 (MetalsColorsPage.resultsList (css='.panel-body-list.results li'))
+42:26.16 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:26.223 [JDI:STEP]: >>> Summary: 9
+42:26.232 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:26.390 [JDI:STEP]: >>> Elements: Earth, Wind
+42:26.401 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:26.605 [JDI:STEP]: >>> Color: Green
+42:26.615 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:26.755 [JDI:STEP]: >>> Metal: Silver
+42:26.763 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:26.914 [JDI:STEP]: >>> Vegetables: Tomato, Vegetables
+42:26.917 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+42:28.427 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+42:31.285 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:31.413 [JDI:STEP]: >>> HOME
+42:31.420 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:31.552 [JDI:STEP]: >>> CONTACT FORM
+42:31.560 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:31.691 [JDI:STEP]: >>> SERVICE
+42:31.700 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:31.831 [JDI:STEP]: >>> METALS & COLORS
+42:31.841 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:34.118 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:34.272 [JDI:STEP]: >>> 1
+42:34.282 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:34.399 [JDI:STEP]: >>> 1
+42:34.408 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:34.546 [JDI:STEP]: >>> 3
+42:34.557 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:34.683 [JDI:STEP]: >>> 3
+42:34.692 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:34.823 [JDI:STEP]: >>> 5
+42:34.834 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:34.957 [JDI:STEP]: >>> 5
+42:34.964 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:35.126 [JDI:STEP]: >>> 7
+42:35.136 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:35.678 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:35.919 [JDI:STEP]: >>> 2
+42:35.927 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:36.34 [JDI:STEP]: >>> 2
+42:36.46 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:36.206 [JDI:STEP]: >>> 4
+42:36.217 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:36.328 [JDI:STEP]: >>> 4
+42:36.339 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:36.493 [JDI:STEP]: >>> 6
+42:36.502 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:36.610 [JDI:STEP]: >>> 6
+42:36.621 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:36.756 [JDI:STEP]: >>> 8
+42:36.766 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:36.879 [JDI:STEP]: >>> 8
+42:36.887 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:37.767 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:37.888 [JDI:STEP]: >>> Water
+42:37.898 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:38.29 [JDI:STEP]: >>> Earth
+42:38.40 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+42:38.487 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:38.612 [JDI:STEP]: >>> Wind
+42:38.622 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:38.763 [JDI:STEP]: >>> Fire
+42:38.771 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+42:39.186 [JDI:STEP]: Select 'Blue' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+42:42.147 [JDI:STEP]: Select 'Bronze' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+42:44.792 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+42:45.67 [JDI:STEP]: >>> Vegetables
+42:45.71 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+42:47.768 [JDI:STEP]: Select 'Tomato' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+42:49.389 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+42:51.445 [JDI:STEP]: Select 'Onion' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+42:53.781 [JDI:STEP]: Check that 'Form' values are: MetalsAndColorsData(summary:[I@c77269; elements:[Ljava.lang.String;@18d624a; color:Blue; metals:Bronze; vegetables:[Ljava.lang.String;@b774c3) (MetalsColorsPage.form (css='.form'))
+42:54.366 [JDI:STEP]: Submit 'Form' and press 'submit' button (MetalsColorsPage.form (css='.form'))
+42:55.884 [JDI:STEP]: Assert that 'Logs List' size 7 (MetalsColorsPage.logsList (css='.panel-body-list.logs li'))
+42:56.719 [JDI:STEP]: Assert that 'Results List' size 5 (MetalsColorsPage.resultsList (css='.panel-body-list.results li'))
+42:58.413 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:58.561 [JDI:STEP]: >>> Summary: 15
+42:58.574 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:58.723 [JDI:STEP]: >>> Elements: Earth, Fire
+42:58.731 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:58.872 [JDI:STEP]: >>> Color: Blue
+42:58.881 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:59.09 [JDI:STEP]: >>> Metal: Bronze
+42:59.20 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+42:59.187 [JDI:STEP]: >>> Vegetables: Tomato, Vegetables, Onion
+42:59.190 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+43:01.540 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+43:04.415 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:04.528 [JDI:STEP]: >>> HOME
+43:04.538 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:04.660 [JDI:STEP]: >>> CONTACT FORM
+43:04.669 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:04.794 [JDI:STEP]: >>> SERVICE
+43:04.804 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:04.923 [JDI:STEP]: >>> METALS & COLORS
+43:04.931 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:07.217 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:07.337 [JDI:STEP]: >>> 1
+43:07.347 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:07.450 [JDI:STEP]: >>> 1
+43:07.460 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:07.573 [JDI:STEP]: >>> 3
+43:07.580 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:07.687 [JDI:STEP]: >>> 3
+43:07.700 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:07.819 [JDI:STEP]: >>> 5
+43:07.829 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:08.248 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:08.679 [JDI:STEP]: >>> 7
+43:08.688 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:08.801 [JDI:STEP]: >>> 7
+43:08.810 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:08.934 [JDI:STEP]: >>> 2
+43:08.950 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:09.87 [JDI:STEP]: >>> 2
+43:09.99 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:09.279 [JDI:STEP]: >>> 4
+43:09.288 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:09.386 [JDI:STEP]: >>> 4
+43:09.395 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:09.505 [JDI:STEP]: >>> 6
+43:09.514 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:09.627 [JDI:STEP]: >>> 6
+43:09.634 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:10.22 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:10.199 [JDI:STEP]: >>> 8
+43:10.216 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:10.313 [JDI:STEP]: >>> 8
+43:10.704 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:10.825 [JDI:STEP]: >>> Water
+43:10.832 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+43:11.283 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:11.397 [JDI:STEP]: >>> Earth
+43:11.404 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:11.527 [JDI:STEP]: >>> Wind
+43:11.536 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+43:11.933 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:12.69 [JDI:STEP]: >>> Fire
+43:12.73 [JDI:STEP]: Select 'Yellow' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+43:14.547 [JDI:STEP]: Select 'Selen' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+43:17.115 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:17.403 [JDI:STEP]: >>> Vegetables
+43:17.408 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:19.676 [JDI:STEP]: Select 'Cucumber' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:21.35 [JDI:STEP]: Select 'Onion' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:22.823 [JDI:STEP]: Check that 'Form' values are: MetalsAndColorsData(summary:[I@965c32; elements:[Ljava.lang.String;@138d912; color:Yellow; metals:Selen; vegetables:[Ljava.lang.String;@6e5554) (MetalsColorsPage.form (css='.form'))
+43:23.684 [JDI:STEP]: Submit 'Form' and press 'submit' button (MetalsColorsPage.form (css='.form'))
+43:24.817 [JDI:STEP]: Assert that 'Logs List' size 7 (MetalsColorsPage.logsList (css='.panel-body-list.logs li'))
+43:25.554 [JDI:STEP]: Assert that 'Results List' size 5 (MetalsColorsPage.resultsList (css='.panel-body-list.results li'))
+43:26.938 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:27.59 [JDI:STEP]: >>> Summary: 11
+43:27.66 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:27.209 [JDI:STEP]: >>> Elements: Water, Wind
+43:27.218 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:27.336 [JDI:STEP]: >>> Color: Yellow
+43:27.346 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:27.462 [JDI:STEP]: >>> Metal: Selen
+43:27.474 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:27.593 [JDI:STEP]: >>> Vegetables: Cucumber, Onion
+43:27.595 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+43:29.775 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+43:34.449 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:34.600 [JDI:STEP]: >>> HOME
+43:34.608 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:34.888 [JDI:STEP]: >>> CONTACT FORM
+43:34.899 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:35.53 [JDI:STEP]: >>> SERVICE
+43:35.62 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:35.235 [JDI:STEP]: >>> METALS & COLORS
+43:35.245 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:38.220 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:38.346 [JDI:STEP]: >>> 1
+43:38.356 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:38.490 [JDI:STEP]: >>> 1
+43:38.500 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:38.613 [JDI:STEP]: >>> 3
+43:38.622 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:38.722 [JDI:STEP]: >>> 3
+43:38.732 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:38.859 [JDI:STEP]: >>> 5
+43:38.867 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:38.984 [JDI:STEP]: >>> 5
+43:38.992 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:39.113 [JDI:STEP]: >>> 7
+43:39.121 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:39.587 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:39.788 [JDI:STEP]: >>> 2
+43:39.800 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:39.945 [JDI:STEP]: >>> 2
+43:39.954 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:40.387 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:40.502 [JDI:STEP]: >>> 4
+43:40.513 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:40.613 [JDI:STEP]: >>> 4
+43:40.622 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:40.771 [JDI:STEP]: >>> 6
+43:40.780 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:40.898 [JDI:STEP]: >>> 6
+43:40.907 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:41.34 [JDI:STEP]: >>> 8
+43:41.41 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:41.165 [JDI:STEP]: >>> 8
+43:41.586 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:41.727 [JDI:STEP]: >>> Water
+43:41.739 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+43:42.280 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:42.465 [JDI:STEP]: >>> Earth
+43:42.478 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+43:43.63 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:43.216 [JDI:STEP]: >>> Wind
+43:43.228 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+43:43.837 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:44.285 [JDI:STEP]: >>> Fire
+43:44.295 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+43:44.868 [JDI:STEP]: Select 'Blue' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+43:48.647 [JDI:STEP]: Select 'Selen' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+43:51.827 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:52.120 [JDI:STEP]: >>> Vegetables
+43:52.124 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:55.22 [JDI:STEP]: Select 'Cucumber' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:56.512 [JDI:STEP]: Select 'Tomato' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:58.53 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:59.224 [JDI:STEP]: Select 'Onion' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+44:00.497 [JDI:STEP]: Check that 'Form' values are: MetalsAndColorsData(summary:[I@72dd0c; elements:[Ljava.lang.String;@2c62ca; color:Blue; metals:Selen; vegetables:[Ljava.lang.String;@247e5b) (MetalsColorsPage.form (css='.form'))
+44:01.14 [JDI:STEP]: Submit 'Form' and press 'submit' button (MetalsColorsPage.form (css='.form'))
+44:01.767 [JDI:STEP]: Assert that 'Logs List' size 9 (MetalsColorsPage.logsList (css='.panel-body-list.logs li'))
+44:02.439 [JDI:STEP]: Assert that 'Results List' size 5 (MetalsColorsPage.resultsList (css='.panel-body-list.results li'))
+44:03.554 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+44:03.723 [JDI:STEP]: >>> Summary: 9
+44:03.733 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+44:03.860 [JDI:STEP]: >>> Elements: Water, Earth, Wind, Fire
+44:03.868 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+44:03.992 [JDI:STEP]: >>> Color: Blue
+44:04.01 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+44:04.125 [JDI:STEP]: >>> Metal: Selen
+44:04.134 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+44:04.271 [JDI:STEP]: >>> Vegetables: Cucumber, Tomato, Vegetables, Onion
+44:04.274 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+24:50.856 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+24:51.596 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+25:14.652 [JDI:INFO]: Page 'Jdi Home Page' opened
+25:14.910 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+25:16.530 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+25:17.322 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@13fcd59 (JdiSite.loginForm (css='#login-form'))
+25:20.35 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:20.155 [JDI:STEP]: >>> HOME
+25:20.165 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:20.265 [JDI:STEP]: >>> CONTACT FORM
+25:20.275 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:20.375 [JDI:STEP]: >>> SERVICE
+25:20.385 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:20.495 [JDI:STEP]: >>> METALS & COLORS
+25:20.505 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:21.818 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors Page') (Metals Colors Page)
+25:31.959 [JDI:ERROR]: >>> JdiSite.metalsColorsPage (url=https://jdi-testing.github.io/jdi-light/metals-colors.html; title=Metal and Colors Page)
+25:32.892 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-25-31FailedCheckOpened.jpg
+25:32.912 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+25:32.912 [JDI:ERROR]: Failed actions chain: WebPage.checkOpened()
+25:33.02 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+25:35.133 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:35.227 [JDI:STEP]: >>> HOME
+25:35.237 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:35.347 [JDI:STEP]: >>> CONTACT FORM
+25:35.357 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:35.477 [JDI:STEP]: >>> SERVICE
+25:35.487 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:35.587 [JDI:STEP]: >>> METALS & COLORS
+25:35.597 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:36.367 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors Page') (Metals Colors Page)
+25:46.514 [JDI:ERROR]: >>> JdiSite.metalsColorsPage (url=https://jdi-testing.github.io/jdi-light/metals-colors.html; title=Metal and Colors Page)
+25:47.291 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-25-46FailedCheckOpened.jpg
+25:47.321 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+25:47.321 [JDI:ERROR]: Failed actions chain: WebPage.checkOpened()
+25:47.321 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+25:49.473 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:49.573 [JDI:STEP]: >>> HOME
+25:49.573 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:49.673 [JDI:STEP]: >>> CONTACT FORM
+25:49.683 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:49.793 [JDI:STEP]: >>> SERVICE
+25:49.803 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:49.903 [JDI:STEP]: >>> METALS & COLORS
+25:49.903 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+25:50.689 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors Page') (Metals Colors Page)
+26:00.860 [JDI:ERROR]: >>> JdiSite.metalsColorsPage (url=https://jdi-testing.github.io/jdi-light/metals-colors.html; title=Metal and Colors Page)
+26:01.641 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-26-00FailedCheckOpened.jpg
+26:01.661 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+26:01.661 [JDI:ERROR]: Failed actions chain: WebPage.checkOpened()
+26:01.661 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+26:03.546 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:03.643 [JDI:STEP]: >>> HOME
+26:03.653 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:03.753 [JDI:STEP]: >>> CONTACT FORM
+26:03.763 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:03.863 [JDI:STEP]: >>> SERVICE
+26:03.873 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:03.983 [JDI:STEP]: >>> METALS & COLORS
+26:03.983 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:04.786 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors Page') (Metals Colors Page)
+26:15.04 [JDI:ERROR]: >>> JdiSite.metalsColorsPage (url=https://jdi-testing.github.io/jdi-light/metals-colors.html; title=Metal and Colors Page)
+26:15.864 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-26-15FailedCheckOpened.jpg
+26:15.884 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+26:15.884 [JDI:ERROR]: Failed actions chain: WebPage.checkOpened()
+26:15.894 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+26:17.863 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:17.966 [JDI:STEP]: >>> HOME
+26:17.966 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:18.76 [JDI:STEP]: >>> CONTACT FORM
+26:18.86 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:18.186 [JDI:STEP]: >>> SERVICE
+26:18.196 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:18.306 [JDI:STEP]: >>> METALS & COLORS
+26:18.316 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+26:19.48 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors Page') (Metals Colors Page)
+26:29.224 [JDI:ERROR]: >>> JdiSite.metalsColorsPage (url=https://jdi-testing.github.io/jdi-light/metals-colors.html; title=Metal and Colors Page)
+26:29.997 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-26-29FailedCheckOpened.jpg
+26:30.17 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+26:30.17 [JDI:ERROR]: Failed actions chain: WebPage.checkOpened()
+33:00.804 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+33:01.244 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+33:09.726 [JDI:INFO]: Page 'Jdi Home Page' opened
+33:09.896 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+33:11.454 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+33:12.199 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@13fcd59 (JdiSite.loginForm (css='#login-form'))
+33:14.816 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:14.926 [JDI:STEP]: >>> HOME
+33:14.936 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:15.46 [JDI:STEP]: >>> CONTACT FORM
+33:15.56 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:15.156 [JDI:STEP]: >>> SERVICE
+33:15.166 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:15.276 [JDI:STEP]: >>> METALS & COLORS
+33:15.286 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:16.709 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+33:16.826 [JDI:INFO]: Page 'Metals Colors Page' opened
+33:17.383 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:17.493 [JDI:STEP]: >>> 1
+33:17.503 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:17.891 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:18.35 [JDI:STEP]: >>> 3
+33:18.44 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:18.173 [JDI:STEP]: >>> 3
+33:18.181 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:18.283 [JDI:STEP]: >>> 5
+33:18.293 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:18.383 [JDI:STEP]: >>> 5
+33:18.393 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:18.493 [JDI:STEP]: >>> 7
+33:18.503 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:18.593 [JDI:STEP]: >>> 7
+33:18.593 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:18.703 [JDI:STEP]: >>> 2
+33:18.713 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:18.803 [JDI:STEP]: >>> 2
+33:18.803 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:19.187 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:19.286 [JDI:STEP]: >>> 4
+33:19.296 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:19.386 [JDI:STEP]: >>> 4
+33:19.386 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:19.496 [JDI:STEP]: >>> 6
+33:19.506 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:19.596 [JDI:STEP]: >>> 6
+33:19.596 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:19.706 [JDI:STEP]: >>> 8
+33:19.716 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:19.806 [JDI:STEP]: >>> 8
+33:20.156 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:20.256 [JDI:STEP]: >>> Water
+33:20.256 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+33:20.627 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:20.729 [JDI:STEP]: >>> Earth
+33:20.739 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:20.839 [JDI:STEP]: >>> Wind
+33:20.849 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:20.949 [JDI:STEP]: >>> Fire
+33:20.959 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+33:21.305 [JDI:STEP]: Select 'Red' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+33:24.354 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-33-23screen.jpg
+33:24.354 [JDI:ERROR]: >>> MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']')
+33:25.158 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-33-24FailedSelect.jpg
+33:25.178 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+33:25.178 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+33:25.198 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+33:26.229 [JDI:INFO]: Page 'Jdi Home Page' opened
+33:27.109 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:27.209 [JDI:STEP]: >>> HOME
+33:27.219 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:27.329 [JDI:STEP]: >>> CONTACT FORM
+33:27.339 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:27.459 [JDI:STEP]: >>> SERVICE
+33:27.469 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:27.579 [JDI:STEP]: >>> METALS & COLORS
+33:27.589 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:28.562 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+33:28.593 [JDI:INFO]: Page 'Metals Colors Page' opened
+33:29.196 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:29.324 [JDI:STEP]: >>> 1
+33:29.326 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:29.780 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:29.905 [JDI:STEP]: >>> 3
+33:29.915 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:30.12 [JDI:STEP]: >>> 3
+33:30.22 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:30.142 [JDI:STEP]: >>> 5
+33:30.142 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:30.242 [JDI:STEP]: >>> 5
+33:30.252 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:30.372 [JDI:STEP]: >>> 7
+33:30.382 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:30.502 [JDI:STEP]: >>> 7
+33:30.512 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:30.612 [JDI:STEP]: >>> 2
+33:30.622 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:30.732 [JDI:STEP]: >>> 2
+33:30.742 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:30.852 [JDI:STEP]: >>> 4
+33:30.862 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:30.962 [JDI:STEP]: >>> 4
+33:30.962 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:31.82 [JDI:STEP]: >>> 6
+33:31.92 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:31.192 [JDI:STEP]: >>> 6
+33:31.202 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:31.312 [JDI:STEP]: >>> 8
+33:31.322 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:31.412 [JDI:STEP]: >>> 8
+33:31.422 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:32.135 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:32.235 [JDI:STEP]: >>> Water
+33:32.245 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:32.355 [JDI:STEP]: >>> Earth
+33:32.365 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+33:32.713 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:32.822 [JDI:STEP]: >>> Wind
+33:32.832 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+33:33.194 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:33.295 [JDI:STEP]: >>> Fire
+33:33.295 [JDI:STEP]: Select 'Green' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+33:36.192 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-33-35screen.jpg
+33:36.192 [JDI:ERROR]: >>> MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']')
+33:36.987 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-33-36FailedSelect.jpg
+33:37.07 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+33:37.07 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+33:37.17 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+33:38.38 [JDI:INFO]: Page 'Jdi Home Page' opened
+33:38.919 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:39.35 [JDI:STEP]: >>> HOME
+33:39.35 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:39.145 [JDI:STEP]: >>> CONTACT FORM
+33:39.155 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:39.255 [JDI:STEP]: >>> SERVICE
+33:39.265 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:39.375 [JDI:STEP]: >>> METALS & COLORS
+33:39.385 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:40.139 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+33:40.196 [JDI:INFO]: Page 'Metals Colors Page' opened
+33:40.765 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:40.865 [JDI:STEP]: >>> 1
+33:40.875 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:40.965 [JDI:STEP]: >>> 1
+33:40.975 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:41.75 [JDI:STEP]: >>> 3
+33:41.85 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:41.192 [JDI:STEP]: >>> 3
+33:41.202 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:41.302 [JDI:STEP]: >>> 5
+33:41.312 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:41.402 [JDI:STEP]: >>> 5
+33:41.412 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:41.512 [JDI:STEP]: >>> 7
+33:41.522 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:41.991 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:42.125 [JDI:STEP]: >>> 2
+33:42.125 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:42.225 [JDI:STEP]: >>> 2
+33:42.235 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:42.335 [JDI:STEP]: >>> 4
+33:42.345 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:42.445 [JDI:STEP]: >>> 4
+33:42.455 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:42.565 [JDI:STEP]: >>> 6
+33:42.575 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:42.655 [JDI:STEP]: >>> 6
+33:42.665 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:42.775 [JDI:STEP]: >>> 8
+33:42.785 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:42.875 [JDI:STEP]: >>> 8
+33:42.875 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:43.688 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:43.798 [JDI:STEP]: >>> Water
+33:43.808 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:43.908 [JDI:STEP]: >>> Earth
+33:43.918 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+33:44.269 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:44.368 [JDI:STEP]: >>> Wind
+33:44.378 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:44.488 [JDI:STEP]: >>> Fire
+33:44.498 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+33:44.857 [JDI:STEP]: Select 'Blue' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+33:47.764 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-33-46screen.jpg
+33:47.764 [JDI:ERROR]: >>> MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']')
+33:48.547 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-33-47FailedSelect.jpg
+33:48.567 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+33:48.567 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+33:48.577 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+33:49.926 [JDI:INFO]: Page 'Jdi Home Page' opened
+33:50.801 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:50.911 [JDI:STEP]: >>> HOME
+33:50.921 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:51.21 [JDI:STEP]: >>> CONTACT FORM
+33:51.31 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:51.151 [JDI:STEP]: >>> SERVICE
+33:51.161 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:51.281 [JDI:STEP]: >>> METALS & COLORS
+33:51.291 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+33:52.156 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+33:52.199 [JDI:INFO]: Page 'Metals Colors Page' opened
+33:52.797 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:52.906 [JDI:STEP]: >>> 1
+33:52.915 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:52.994 [JDI:STEP]: >>> 1
+33:53.04 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:53.110 [JDI:STEP]: >>> 3
+33:53.120 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:53.230 [JDI:STEP]: >>> 3
+33:53.238 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:53.345 [JDI:STEP]: >>> 5
+33:53.354 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:53.754 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:53.883 [JDI:STEP]: >>> 7
+33:53.890 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:53.980 [JDI:STEP]: >>> 7
+33:53.990 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:54.100 [JDI:STEP]: >>> 2
+33:54.110 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:54.200 [JDI:STEP]: >>> 2
+33:54.200 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:54.310 [JDI:STEP]: >>> 4
+33:54.320 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:54.410 [JDI:STEP]: >>> 4
+33:54.420 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:54.520 [JDI:STEP]: >>> 6
+33:54.530 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:54.620 [JDI:STEP]: >>> 6
+33:54.630 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:54.989 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:55.105 [JDI:STEP]: >>> 8
+33:55.113 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+33:55.207 [JDI:STEP]: >>> 8
+33:55.547 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:55.653 [JDI:STEP]: >>> Water
+33:55.662 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+33:56.20 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:56.135 [JDI:STEP]: >>> Earth
+33:56.145 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:56.269 [JDI:STEP]: >>> Wind
+33:56.279 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+33:56.632 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+33:56.737 [JDI:STEP]: >>> Fire
+33:56.737 [JDI:STEP]: Select 'Yellow' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+37:46.61 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+37:46.491 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+37:54.872 [JDI:INFO]: Page 'Jdi Home Page' opened
+37:55.32 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+37:56.639 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+37:57.420 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@13fcd59 (JdiSite.loginForm (css='#login-form'))
+37:59.237 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+38:00.108 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:00.228 [JDI:STEP]: >>> HOME
+38:00.228 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:00.338 [JDI:STEP]: >>> CONTACT FORM
+38:00.348 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:00.448 [JDI:STEP]: >>> SERVICE
+38:00.458 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:00.568 [JDI:STEP]: >>> METALS & COLORS
+38:00.578 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:01.973 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+38:02.22 [JDI:INFO]: Page 'Metals Colors Page' opened
+38:02.669 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:02.789 [JDI:STEP]: >>> 1
+38:02.799 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:03.189 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:03.292 [JDI:STEP]: >>> 3
+38:03.302 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:03.432 [JDI:STEP]: >>> 3
+38:03.442 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:03.542 [JDI:STEP]: >>> 5
+38:03.552 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:03.642 [JDI:STEP]: >>> 5
+38:03.652 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:03.762 [JDI:STEP]: >>> 7
+38:03.772 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:03.862 [JDI:STEP]: >>> 7
+38:03.872 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:03.992 [JDI:STEP]: >>> 2
+38:04.02 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:04.112 [JDI:STEP]: >>> 2
+38:04.112 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:04.488 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:04.592 [JDI:STEP]: >>> 4
+38:04.602 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:04.702 [JDI:STEP]: >>> 4
+38:04.712 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:04.812 [JDI:STEP]: >>> 6
+38:04.822 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:04.969 [JDI:STEP]: >>> 6
+38:04.977 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:05.88 [JDI:STEP]: >>> 8
+38:05.98 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:05.215 [JDI:STEP]: >>> 8
+38:05.555 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:05.655 [JDI:STEP]: >>> Water
+38:05.665 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:06.49 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:06.148 [JDI:STEP]: >>> Earth
+38:06.158 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:06.278 [JDI:STEP]: >>> Wind
+38:06.288 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:06.388 [JDI:STEP]: >>> Fire
+38:06.398 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:06.766 [JDI:STEP]: Select 'Red' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+38:09.754 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-08screen.jpg
+38:09.754 [JDI:ERROR]: >>> MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']')
+38:10.547 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-09FailedSelect.jpg
+38:10.577 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+38:10.577 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+38:10.597 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+38:11.642 [JDI:INFO]: Page 'Jdi Home Page' opened
+38:11.751 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+38:12.561 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:12.651 [JDI:STEP]: >>> HOME
+38:12.661 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:12.761 [JDI:STEP]: >>> CONTACT FORM
+38:12.761 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:12.881 [JDI:STEP]: >>> SERVICE
+38:12.891 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:12.991 [JDI:STEP]: >>> METALS & COLORS
+38:13.01 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:13.975 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+38:14.38 [JDI:INFO]: Page 'Metals Colors Page' opened
+38:14.602 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:14.731 [JDI:STEP]: >>> 1
+38:14.741 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:15.121 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:15.241 [JDI:STEP]: >>> 3
+38:15.251 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:15.341 [JDI:STEP]: >>> 3
+38:15.351 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:15.461 [JDI:STEP]: >>> 5
+38:15.471 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:15.561 [JDI:STEP]: >>> 5
+38:15.571 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:15.671 [JDI:STEP]: >>> 7
+38:15.681 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:15.771 [JDI:STEP]: >>> 7
+38:15.781 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:15.881 [JDI:STEP]: >>> 2
+38:15.891 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:15.981 [JDI:STEP]: >>> 2
+38:15.991 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:16.91 [JDI:STEP]: >>> 4
+38:16.101 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:16.191 [JDI:STEP]: >>> 4
+38:16.191 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:16.301 [JDI:STEP]: >>> 6
+38:16.311 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:16.402 [JDI:STEP]: >>> 6
+38:16.412 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:16.512 [JDI:STEP]: >>> 8
+38:16.522 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:16.612 [JDI:STEP]: >>> 8
+38:16.612 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:17.294 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:17.394 [JDI:STEP]: >>> Water
+38:17.404 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:17.504 [JDI:STEP]: >>> Earth
+38:17.514 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:17.865 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:17.964 [JDI:STEP]: >>> Wind
+38:17.974 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:18.325 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:18.431 [JDI:STEP]: >>> Fire
+38:18.431 [JDI:STEP]: Select 'Green' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+38:21.343 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-20screen.jpg
+38:21.353 [JDI:ERROR]: >>> MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']')
+38:22.141 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-21FailedSelect.jpg
+38:22.161 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+38:22.161 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+38:22.161 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+38:23.217 [JDI:INFO]: Page 'Jdi Home Page' opened
+38:23.328 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+38:24.138 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:24.248 [JDI:STEP]: >>> HOME
+38:24.258 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:24.358 [JDI:STEP]: >>> CONTACT FORM
+38:24.368 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:24.478 [JDI:STEP]: >>> SERVICE
+38:24.488 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:24.588 [JDI:STEP]: >>> METALS & COLORS
+38:24.598 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:25.471 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+38:25.503 [JDI:INFO]: Page 'Metals Colors Page' opened
+38:26.62 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:26.162 [JDI:STEP]: >>> 1
+38:26.172 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:26.262 [JDI:STEP]: >>> 1
+38:26.273 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:26.391 [JDI:STEP]: >>> 3
+38:26.400 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:26.482 [JDI:STEP]: >>> 3
+38:26.492 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:26.602 [JDI:STEP]: >>> 5
+38:26.602 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:26.692 [JDI:STEP]: >>> 5
+38:26.702 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:26.832 [JDI:STEP]: >>> 7
+38:26.842 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:27.204 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:27.322 [JDI:STEP]: >>> 2
+38:27.333 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:27.422 [JDI:STEP]: >>> 2
+38:27.432 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:27.542 [JDI:STEP]: >>> 4
+38:27.552 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:27.652 [JDI:STEP]: >>> 4
+38:27.662 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:27.762 [JDI:STEP]: >>> 6
+38:27.772 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:27.852 [JDI:STEP]: >>> 6
+38:27.862 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:27.972 [JDI:STEP]: >>> 8
+38:27.982 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:28.62 [JDI:STEP]: >>> 8
+38:28.72 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:28.835 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:28.945 [JDI:STEP]: >>> Water
+38:28.955 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:29.55 [JDI:STEP]: >>> Earth
+38:29.65 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:29.412 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:29.515 [JDI:STEP]: >>> Wind
+38:29.525 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:29.625 [JDI:STEP]: >>> Fire
+38:29.635 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:29.994 [JDI:STEP]: Select 'Blue' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+38:32.968 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-32screen.jpg
+38:32.970 [JDI:ERROR]: >>> MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']')
+38:33.754 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-32FailedSelect.jpg
+38:33.774 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+38:33.774 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+38:33.784 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+38:35.161 [JDI:INFO]: Page 'Jdi Home Page' opened
+38:35.283 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+38:36.122 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:36.227 [JDI:STEP]: >>> HOME
+38:36.234 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:36.347 [JDI:STEP]: >>> CONTACT FORM
+38:36.358 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:36.470 [JDI:STEP]: >>> SERVICE
+38:36.480 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:36.587 [JDI:STEP]: >>> METALS & COLORS
+38:36.597 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:37.412 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+38:37.491 [JDI:INFO]: Page 'Metals Colors Page' opened
+38:38.60 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:38.168 [JDI:STEP]: >>> 1
+38:38.177 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:38.269 [JDI:STEP]: >>> 1
+38:38.277 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:38.390 [JDI:STEP]: >>> 3
+38:38.390 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:38.490 [JDI:STEP]: >>> 3
+38:38.500 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:38.600 [JDI:STEP]: >>> 5
+38:38.610 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:39.18 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:39.151 [JDI:STEP]: >>> 7
+38:39.159 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:39.260 [JDI:STEP]: >>> 7
+38:39.260 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:39.370 [JDI:STEP]: >>> 2
+38:39.370 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:39.470 [JDI:STEP]: >>> 2
+38:39.480 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:39.580 [JDI:STEP]: >>> 4
+38:39.590 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:39.680 [JDI:STEP]: >>> 4
+38:39.680 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:39.790 [JDI:STEP]: >>> 6
+38:39.800 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:39.890 [JDI:STEP]: >>> 6
+38:39.890 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:40.256 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:40.372 [JDI:STEP]: >>> 8
+38:40.381 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:40.480 [JDI:STEP]: >>> 8
+38:40.821 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:40.921 [JDI:STEP]: >>> Water
+38:40.921 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:41.270 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:41.373 [JDI:STEP]: >>> Earth
+38:41.383 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:41.483 [JDI:STEP]: >>> Wind
+38:41.493 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:41.826 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:41.930 [JDI:STEP]: >>> Fire
+38:41.930 [JDI:STEP]: Select 'Yellow' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+38:44.853 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-44screen.jpg
+38:44.853 [JDI:ERROR]: >>> MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']')
+38:45.647 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-44FailedSelect.jpg
+38:45.667 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+38:45.667 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+38:45.677 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+38:47.340 [JDI:INFO]: Page 'Jdi Home Page' opened
+38:47.441 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+38:48.257 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:48.367 [JDI:STEP]: >>> HOME
+38:48.377 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:48.487 [JDI:STEP]: >>> CONTACT FORM
+38:48.497 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:48.617 [JDI:STEP]: >>> SERVICE
+38:48.627 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:48.737 [JDI:STEP]: >>> METALS & COLORS
+38:48.747 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+38:49.704 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+38:49.749 [JDI:INFO]: Page 'Metals Colors Page' opened
+38:50.454 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:50.574 [JDI:STEP]: >>> 1
+38:50.574 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:50.670 [JDI:STEP]: >>> 1
+38:50.680 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:50.790 [JDI:STEP]: >>> 3
+38:50.800 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:50.900 [JDI:STEP]: >>> 3
+38:50.910 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:51.10 [JDI:STEP]: >>> 5
+38:51.20 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:51.110 [JDI:STEP]: >>> 5
+38:51.120 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:51.230 [JDI:STEP]: >>> 7
+38:51.240 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:51.591 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:51.711 [JDI:STEP]: >>> 2
+38:51.721 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:51.823 [JDI:STEP]: >>> 2
+38:51.823 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:52.178 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:52.280 [JDI:STEP]: >>> 4
+38:52.290 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:52.380 [JDI:STEP]: >>> 4
+38:52.390 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:52.500 [JDI:STEP]: >>> 6
+38:52.510 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:52.600 [JDI:STEP]: >>> 6
+38:52.610 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:52.740 [JDI:STEP]: >>> 8
+38:52.760 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+38:52.860 [JDI:STEP]: >>> 8
+38:53.270 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:53.370 [JDI:STEP]: >>> Water
+38:53.370 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:53.945 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:54.50 [JDI:STEP]: >>> Earth
+38:54.70 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:54.512 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:54.645 [JDI:STEP]: >>> Wind
+38:54.655 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:55.101 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+38:55.206 [JDI:STEP]: >>> Fire
+38:55.216 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+38:55.564 [JDI:STEP]: Select 'Blue' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+38:58.599 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-57screen.jpg
+38:58.609 [JDI:ERROR]: >>> MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']')
+38:59.418 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-21-38-58FailedSelect.jpg
+38:59.438 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+38:59.438 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+42:35.719 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+42:36.159 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+42:47.542 [JDI:INFO]: Page 'Jdi Home Page' opened
+42:47.703 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+42:49.379 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+42:50.135 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@16802b0 (JdiSite.loginForm (css='#login-form'))
+42:51.948 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+42:52.833 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:52.943 [JDI:STEP]: >>> HOME
+42:52.953 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:53.53 [JDI:STEP]: >>> CONTACT FORM
+42:53.63 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:53.173 [JDI:STEP]: >>> SERVICE
+42:53.183 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:53.293 [JDI:STEP]: >>> METALS & COLORS
+42:53.303 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+42:55.124 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+42:55.196 [JDI:INFO]: Page 'Metals Colors Page' opened
+42:55.896 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:56.26 [JDI:STEP]: >>> 1
+42:56.36 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:56.456 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:56.570 [JDI:STEP]: >>> 3
+42:56.580 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:56.690 [JDI:STEP]: >>> 3
+42:56.700 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:56.800 [JDI:STEP]: >>> 5
+42:56.810 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:56.910 [JDI:STEP]: >>> 5
+42:56.920 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:57.30 [JDI:STEP]: >>> 7
+42:57.40 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:57.150 [JDI:STEP]: >>> 7
+42:57.150 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:57.260 [JDI:STEP]: >>> 2
+42:57.270 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:57.360 [JDI:STEP]: >>> 2
+42:57.370 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:57.736 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:57.836 [JDI:STEP]: >>> 4
+42:57.846 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:57.936 [JDI:STEP]: >>> 4
+42:57.936 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:58.46 [JDI:STEP]: >>> 6
+42:58.56 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:58.152 [JDI:STEP]: >>> 6
+42:58.162 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:58.272 [JDI:STEP]: >>> 8
+42:58.282 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+42:58.372 [JDI:STEP]: >>> 8
+42:58.712 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:58.822 [JDI:STEP]: >>> Water
+42:58.832 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+42:59.239 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:59.349 [JDI:STEP]: >>> Earth
+42:59.359 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:59.509 [JDI:STEP]: >>> Wind
+42:59.519 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+42:59.619 [JDI:STEP]: >>> Fire
+42:59.629 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+43:00.48 [JDI:STEP]: Select 'Red' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+43:02.100 [JDI:STEP]: Select 'Gold' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+43:04.116 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:04.390 [JDI:STEP]: >>> Vegetables
+43:04.390 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:06.402 [JDI:STEP]: Select 'Cucumber' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:07.411 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData(summary:[I@2d92c4; elements:[Ljava.lang.String;@197cc1f; color:Red; metals:Gold; vegetables:[Ljava.lang.String;@723d6a) (MetalsColorsPage.metalsColorsForm (css='.form'))
+43:07.898 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+43:08.700 [JDI:STEP]: Assert that 'Logs List' size 7 (MetalsColorsPage.logsList (css='.panel-body-list.logs li'))
+43:09.145 [JDI:STEP]: Assert that 'Results List' size 5 (MetalsColorsPage.resultsList (css='.panel-body-list.results li'))
+43:10.185 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:10.285 [JDI:STEP]: >>> Summary: 3
+43:10.295 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:10.405 [JDI:STEP]: >>> Elements: Water, Fire
+43:10.415 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:10.515 [JDI:STEP]: >>> Color: Red
+43:10.525 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:10.625 [JDI:STEP]: >>> Metal: Gold
+43:10.635 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+43:10.745 [JDI:STEP]: >>> Vegetables: Cucumber
+43:10.795 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+43:12.386 [JDI:INFO]: Page 'Jdi Home Page' opened
+43:12.492 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+43:13.275 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:13.378 [JDI:STEP]: >>> HOME
+43:13.378 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:13.488 [JDI:STEP]: >>> CONTACT FORM
+43:13.498 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:13.608 [JDI:STEP]: >>> SERVICE
+43:13.618 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:13.728 [JDI:STEP]: >>> METALS & COLORS
+43:13.738 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+43:14.564 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+43:14.594 [JDI:INFO]: Page 'Metals Colors Page' opened
+43:15.155 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:15.255 [JDI:STEP]: >>> 1
+43:15.265 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:15.655 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:15.775 [JDI:STEP]: >>> 3
+43:15.785 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:15.899 [JDI:STEP]: >>> 3
+43:15.908 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.14 [JDI:STEP]: >>> 5
+43:16.21 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.108 [JDI:STEP]: >>> 5
+43:16.108 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.218 [JDI:STEP]: >>> 7
+43:16.228 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.318 [JDI:STEP]: >>> 7
+43:16.328 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.428 [JDI:STEP]: >>> 2
+43:16.438 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.528 [JDI:STEP]: >>> 2
+43:16.538 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.638 [JDI:STEP]: >>> 4
+43:16.648 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.738 [JDI:STEP]: >>> 4
+43:16.738 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.848 [JDI:STEP]: >>> 6
+43:16.858 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:16.948 [JDI:STEP]: >>> 6
+43:16.958 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:17.58 [JDI:STEP]: >>> 8
+43:17.68 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:17.163 [JDI:STEP]: >>> 8
+43:17.173 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+43:17.845 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:17.945 [JDI:STEP]: >>> Water
+43:17.955 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:18.65 [JDI:STEP]: >>> Earth
+43:18.75 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+43:18.421 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:18.540 [JDI:STEP]: >>> Wind
+43:18.550 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+43:18.993 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+43:19.92 [JDI:STEP]: >>> Fire
+43:19.92 [JDI:STEP]: Select 'Green' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+43:21.197 [JDI:STEP]: Select 'Silver' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+43:23.417 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:23.648 [JDI:STEP]: >>> Vegetables
+43:23.648 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:25.971 [JDI:STEP]: Select 'Tomato' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:27.81 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+43:28.215 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData(summary:[I@1815fb7; elements:[Ljava.lang.String;@1af8049; color:Green; metals:Silver; vegetables:[Ljava.lang.String;@16af784) (MetalsColorsPage.metalsColorsForm (css='.form'))
+43:28.748 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+00:44.188 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+00:44.618 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+00:53.187 [JDI:INFO]: Page 'Jdi Home Page' opened
+00:53.354 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+00:54.903 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+00:55.632 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@13fcd59 (JdiSite.loginForm (css='#login-form'))
+00:57.513 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+00:58.494 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+00:58.614 [JDI:STEP]: >>> HOME
+00:58.614 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+00:58.734 [JDI:STEP]: >>> CONTACT FORM
+00:58.744 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+00:58.854 [JDI:STEP]: >>> SERVICE
+00:58.864 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+00:58.984 [JDI:STEP]: >>> METALS & COLORS
+00:58.994 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+01:00.964 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+01:01.11 [JDI:INFO]: Page 'Metals Colors Page' opened
+01:01.701 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:01.831 [JDI:STEP]: >>> 1
+01:01.841 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:02.259 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:02.398 [JDI:STEP]: >>> 3
+01:02.408 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:02.538 [JDI:STEP]: >>> 3
+01:02.548 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:02.658 [JDI:STEP]: >>> 5
+01:02.668 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:02.758 [JDI:STEP]: >>> 5
+01:02.768 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:02.868 [JDI:STEP]: >>> 7
+01:02.878 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:02.968 [JDI:STEP]: >>> 7
+01:02.968 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:03.78 [JDI:STEP]: >>> 2
+01:03.88 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:03.178 [JDI:STEP]: >>> 2
+01:03.178 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:03.531 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:03.632 [JDI:STEP]: >>> 4
+01:03.642 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:03.732 [JDI:STEP]: >>> 4
+01:03.742 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:03.842 [JDI:STEP]: >>> 6
+01:03.852 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:03.942 [JDI:STEP]: >>> 6
+01:03.952 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:04.52 [JDI:STEP]: >>> 8
+01:04.73 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:04.165 [JDI:STEP]: >>> 8
+01:04.505 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+01:04.605 [JDI:STEP]: >>> Water
+01:04.615 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+01:04.970 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+01:05.71 [JDI:STEP]: >>> Earth
+01:05.71 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+01:05.181 [JDI:STEP]: >>> Wind
+01:05.191 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+01:05.291 [JDI:STEP]: >>> Fire
+01:05.301 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+01:05.644 [JDI:STEP]: Select 'Red' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+01:07.686 [JDI:STEP]: Select 'Gold' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+01:09.786 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+01:10.19 [JDI:STEP]: >>> Vegetables
+01:10.19 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+01:12.57 [JDI:STEP]: Select 'Cucumber' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+01:13.90 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData(summary:[I@12d4583; elements:[Ljava.lang.String;@bc224d; color:Red; metals:Gold; vegetables:[Ljava.lang.String;@1cd7ea5) (MetalsColorsPage.metalsColorsForm (css='.form'))
+01:13.568 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+01:14.984 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+01:15.84 [JDI:STEP]: >>> Summary: 3
+01:15.94 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+01:15.204 [JDI:STEP]: >>> Elements: Water, Fire
+01:15.214 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+01:15.314 [JDI:STEP]: >>> Color: Red
+01:15.324 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+01:15.424 [JDI:STEP]: >>> Metal: Gold
+01:15.434 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+01:15.544 [JDI:STEP]: >>> Vegetables: Cucumber
+01:15.564 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+01:16.721 [JDI:INFO]: Page 'Jdi Home Page' opened
+01:16.844 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+01:17.654 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+01:17.764 [JDI:STEP]: >>> HOME
+01:17.773 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+01:17.878 [JDI:STEP]: >>> CONTACT FORM
+01:17.887 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+01:17.995 [JDI:STEP]: >>> SERVICE
+01:18.03 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+01:18.105 [JDI:STEP]: >>> METALS & COLORS
+01:18.113 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+01:18.993 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+01:19.36 [JDI:INFO]: Page 'Metals Colors Page' opened
+01:19.584 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:19.694 [JDI:STEP]: >>> 1
+01:19.694 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:20.67 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:20.174 [JDI:STEP]: >>> 3
+01:20.184 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:20.284 [JDI:STEP]: >>> 3
+01:20.294 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:20.404 [JDI:STEP]: >>> 5
+01:20.414 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:20.504 [JDI:STEP]: >>> 5
+01:20.514 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:20.624 [JDI:STEP]: >>> 7
+01:20.634 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:20.724 [JDI:STEP]: >>> 7
+01:20.734 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:20.854 [JDI:STEP]: >>> 2
+01:20.854 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:20.954 [JDI:STEP]: >>> 2
+01:20.964 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:21.94 [JDI:STEP]: >>> 4
+01:21.104 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:21.211 [JDI:STEP]: >>> 4
+01:21.221 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:21.331 [JDI:STEP]: >>> 6
+01:21.341 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:21.431 [JDI:STEP]: >>> 6
+01:21.441 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:21.551 [JDI:STEP]: >>> 8
+01:21.551 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:21.651 [JDI:STEP]: >>> 8
+01:21.651 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+01:22.317 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+01:22.417 [JDI:STEP]: >>> Water
+01:22.427 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+01:22.527 [JDI:STEP]: >>> Earth
+01:22.537 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+01:22.923 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+01:23.31 [JDI:STEP]: >>> Wind
+01:23.41 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+01:23.394 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+01:23.497 [JDI:STEP]: >>> Fire
+01:23.507 [JDI:STEP]: Select 'Green' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+01:25.769 [JDI:STEP]: Select 'Silver' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+02:00.748 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+02:01.178 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+02:09.593 [JDI:INFO]: Page 'Jdi Home Page' opened
+02:09.754 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+02:11.331 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+02:12.211 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@1ec7422 (JdiSite.loginForm (css='#login-form'))
+02:14.48 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+02:14.937 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:15.114 [JDI:STEP]: >>> HOME
+02:15.124 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:15.264 [JDI:STEP]: >>> CONTACT FORM
+02:15.274 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:15.394 [JDI:STEP]: >>> SERVICE
+02:15.394 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:15.524 [JDI:STEP]: >>> METALS & COLORS
+02:15.534 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:16.791 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+02:16.830 [JDI:INFO]: Page 'Metals Colors Page' opened
+02:17.447 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:17.577 [JDI:STEP]: >>> 1
+02:17.587 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:17.993 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:18.114 [JDI:STEP]: >>> 3
+02:18.123 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:18.214 [JDI:STEP]: >>> 3
+02:18.224 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:18.330 [JDI:STEP]: >>> 5
+02:18.340 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:18.430 [JDI:STEP]: >>> 5
+02:18.440 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:18.540 [JDI:STEP]: >>> 7
+02:18.550 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:18.640 [JDI:STEP]: >>> 7
+02:18.650 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:18.750 [JDI:STEP]: >>> 2
+02:18.760 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:18.850 [JDI:STEP]: >>> 2
+02:18.860 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:19.204 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:19.304 [JDI:STEP]: >>> 4
+02:19.314 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:19.404 [JDI:STEP]: >>> 4
+02:19.404 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:19.514 [JDI:STEP]: >>> 6
+02:19.524 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:19.614 [JDI:STEP]: >>> 6
+02:19.624 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:19.754 [JDI:STEP]: >>> 8
+02:19.764 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:19.857 [JDI:STEP]: >>> 8
+02:20.194 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:20.294 [JDI:STEP]: >>> Water
+02:20.304 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+02:20.655 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:20.754 [JDI:STEP]: >>> Earth
+02:20.764 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:20.864 [JDI:STEP]: >>> Wind
+02:20.874 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:20.974 [JDI:STEP]: >>> Fire
+02:20.984 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+02:21.337 [JDI:STEP]: Select 'Red' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+02:23.375 [JDI:STEP]: Select 'Gold' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+02:25.401 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+02:25.663 [JDI:STEP]: >>> Vegetables
+02:25.663 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+02:27.683 [JDI:STEP]: Select 'Cucumber' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+02:28.705 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData{summary=[1, 2], elements=[Water, Fire], color='Red', metals='Gold', vegetables=[Cucumber]} (MetalsColorsPage.metalsColorsForm (css='.form'))
+02:29.183 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+02:30.551 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:30.651 [JDI:STEP]: >>> Summary: 3
+02:30.661 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:30.761 [JDI:STEP]: >>> Elements: Water, Fire
+02:30.771 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:30.871 [JDI:STEP]: >>> Color: Red
+02:30.871 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:30.981 [JDI:STEP]: >>> Metal: Gold
+02:30.991 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:31.91 [JDI:STEP]: >>> Vegetables: Cucumber
+02:31.121 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+02:32.189 [JDI:INFO]: Page 'Jdi Home Page' opened
+02:32.298 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+02:33.64 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:33.167 [JDI:STEP]: >>> HOME
+02:33.173 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:33.277 [JDI:STEP]: >>> CONTACT FORM
+02:33.287 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:33.387 [JDI:STEP]: >>> SERVICE
+02:33.397 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:33.518 [JDI:STEP]: >>> METALS & COLORS
+02:33.527 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:34.296 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+02:34.339 [JDI:INFO]: Page 'Metals Colors Page' opened
+02:34.937 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:35.67 [JDI:STEP]: >>> 1
+02:35.87 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:35.491 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:35.601 [JDI:STEP]: >>> 3
+02:35.601 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:35.701 [JDI:STEP]: >>> 3
+02:35.701 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:35.811 [JDI:STEP]: >>> 5
+02:35.821 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:35.911 [JDI:STEP]: >>> 5
+02:35.921 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:36.21 [JDI:STEP]: >>> 7
+02:36.31 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:36.121 [JDI:STEP]: >>> 7
+02:36.131 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:36.251 [JDI:STEP]: >>> 2
+02:36.251 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:36.361 [JDI:STEP]: >>> 2
+02:36.361 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:36.481 [JDI:STEP]: >>> 4
+02:36.491 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:36.601 [JDI:STEP]: >>> 4
+02:36.611 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:36.711 [JDI:STEP]: >>> 6
+02:36.721 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:36.811 [JDI:STEP]: >>> 6
+02:36.821 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:36.931 [JDI:STEP]: >>> 8
+02:36.941 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:37.41 [JDI:STEP]: >>> 8
+02:37.51 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:37.697 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:37.797 [JDI:STEP]: >>> Water
+02:37.807 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:37.917 [JDI:STEP]: >>> Earth
+02:37.927 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+02:38.285 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:38.381 [JDI:STEP]: >>> Wind
+02:38.391 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+02:38.753 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:38.854 [JDI:STEP]: >>> Fire
+02:38.854 [JDI:STEP]: Select 'Green' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+02:41.08 [JDI:STEP]: Select 'Silver' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+02:43.105 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+02:43.415 [JDI:STEP]: >>> Vegetables
+02:43.415 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+02:45.572 [JDI:STEP]: Select 'Tomato' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+02:46.612 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+02:47.647 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData{summary=[1, 8], elements=[Earth, Wind], color='Green', metals='Silver', vegetables=[Tomato, Vegetables]} (MetalsColorsPage.metalsColorsForm (css='.form'))
+02:48.134 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+02:49.594 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:49.704 [JDI:STEP]: >>> Summary: 9
+02:49.704 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:49.814 [JDI:STEP]: >>> Elements: Earth, Wind
+02:49.824 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:49.924 [JDI:STEP]: >>> Color: Green
+02:49.924 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:50.54 [JDI:STEP]: >>> Metal: Silver
+02:50.64 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+02:50.164 [JDI:STEP]: >>> Vegetables: Tomato, Vegetables
+02:50.164 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+02:51.235 [JDI:INFO]: Page 'Jdi Home Page' opened
+02:51.370 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+02:52.147 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:52.247 [JDI:STEP]: >>> HOME
+02:52.257 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:52.347 [JDI:STEP]: >>> CONTACT FORM
+02:52.357 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:52.467 [JDI:STEP]: >>> SERVICE
+02:52.477 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:52.587 [JDI:STEP]: >>> METALS & COLORS
+02:52.597 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+02:53.383 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+02:53.437 [JDI:INFO]: Page 'Metals Colors Page' opened
+02:53.983 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:54.93 [JDI:STEP]: >>> 1
+02:54.103 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:54.180 [JDI:STEP]: >>> 1
+02:54.190 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:54.315 [JDI:STEP]: >>> 3
+02:54.324 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:54.414 [JDI:STEP]: >>> 3
+02:54.420 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:54.527 [JDI:STEP]: >>> 5
+02:54.534 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:54.627 [JDI:STEP]: >>> 5
+02:54.636 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:54.745 [JDI:STEP]: >>> 7
+02:54.754 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:55.148 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:55.268 [JDI:STEP]: >>> 2
+02:55.282 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:55.379 [JDI:STEP]: >>> 2
+02:55.389 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:55.529 [JDI:STEP]: >>> 4
+02:55.539 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:55.649 [JDI:STEP]: >>> 4
+02:55.659 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:55.779 [JDI:STEP]: >>> 6
+02:55.789 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:55.899 [JDI:STEP]: >>> 6
+02:55.909 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:56.19 [JDI:STEP]: >>> 8
+02:56.29 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:56.119 [JDI:STEP]: >>> 8
+02:56.129 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+02:56.816 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:56.926 [JDI:STEP]: >>> Water
+02:56.936 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:57.46 [JDI:STEP]: >>> Earth
+02:57.56 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+02:57.408 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:57.507 [JDI:STEP]: >>> Wind
+02:57.517 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+02:57.617 [JDI:STEP]: >>> Fire
+02:57.627 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+02:57.996 [JDI:STEP]: Select 'Blue' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+03:00.159 [JDI:STEP]: Select 'Bronze' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+03:02.268 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+03:02.490 [JDI:STEP]: >>> Vegetables
+03:02.500 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+03:04.768 [JDI:STEP]: Select 'Tomato' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+03:05.885 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+03:06.969 [JDI:STEP]: Select 'Onion' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+03:08.164 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData{summary=[7, 8], elements=[Earth, Fire], color='Blue', metals='Bronze', vegetables=[Tomato, Vegetables, Onion]} (MetalsColorsPage.metalsColorsForm (css='.form'))
+03:08.672 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+03:10.32 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+03:10.142 [JDI:STEP]: >>> Summary: 15
+03:10.152 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+03:10.282 [JDI:STEP]: >>> Elements: Earth, Fire
+03:10.292 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+03:10.393 [JDI:STEP]: >>> Color: Blue
+03:10.403 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+03:10.513 [JDI:STEP]: >>> Metal: Bronze
+03:10.523 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+03:10.633 [JDI:STEP]: >>> Vegetables: Tomato, Vegetables, Onion
+03:10.643 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+03:11.648 [JDI:INFO]: Page 'Jdi Home Page' opened
+03:11.742 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+03:12.542 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+03:12.652 [JDI:STEP]: >>> HOME
+03:12.662 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+03:12.762 [JDI:STEP]: >>> CONTACT FORM
+03:12.772 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:24.296 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+05:24.730 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+05:32.954 [JDI:INFO]: Page 'Jdi Home Page' opened
+05:33.114 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+05:34.597 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+05:35.399 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@1624c7 (JdiSite.loginForm (css='#login-form'))
+05:37.167 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+05:38.00 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:38.180 [JDI:STEP]: >>> HOME
+05:38.190 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:38.300 [JDI:STEP]: >>> CONTACT FORM
+05:38.300 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:38.410 [JDI:STEP]: >>> SERVICE
+05:38.420 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:38.530 [JDI:STEP]: >>> METALS & COLORS
+05:38.540 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:39.631 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+05:39.675 [JDI:INFO]: Page 'Metals Colors Page' opened
+05:40.224 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:40.334 [JDI:STEP]: >>> 1
+05:40.344 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:40.741 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:40.844 [JDI:STEP]: >>> 3
+05:40.854 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:40.944 [JDI:STEP]: >>> 3
+05:40.954 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:41.154 [JDI:STEP]: >>> 5
+05:41.164 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:41.294 [JDI:STEP]: >>> 5
+05:41.294 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:41.424 [JDI:STEP]: >>> 7
+05:41.434 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:41.534 [JDI:STEP]: >>> 7
+05:41.544 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:41.664 [JDI:STEP]: >>> 2
+05:41.674 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:41.774 [JDI:STEP]: >>> 2
+05:41.784 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:42.185 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:42.288 [JDI:STEP]: >>> 4
+05:42.298 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:42.388 [JDI:STEP]: >>> 4
+05:42.388 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:42.508 [JDI:STEP]: >>> 6
+05:42.518 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:42.618 [JDI:STEP]: >>> 6
+05:42.628 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:42.728 [JDI:STEP]: >>> 8
+05:42.738 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:42.858 [JDI:STEP]: >>> 8
+05:43.240 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+05:43.360 [JDI:STEP]: >>> Water
+05:43.370 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+05:43.797 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+05:43.907 [JDI:STEP]: >>> Earth
+05:43.917 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+05:44.37 [JDI:STEP]: >>> Wind
+05:44.47 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+05:44.157 [JDI:STEP]: >>> Fire
+05:44.157 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+05:44.564 [JDI:STEP]: Select 'Red' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+05:47.434 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-22-05-46screen.jpg
+05:47.434 [JDI:ERROR]: >>> MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']')
+05:48.245 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-22-05-47FailedSelect.jpg
+05:48.265 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+05:48.265 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+05:48.295 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+05:49.293 [JDI:INFO]: Page 'Jdi Home Page' opened
+05:49.417 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+05:50.227 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:50.323 [JDI:STEP]: >>> HOME
+05:50.333 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:50.433 [JDI:STEP]: >>> CONTACT FORM
+05:50.433 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:50.553 [JDI:STEP]: >>> SERVICE
+05:50.563 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:50.663 [JDI:STEP]: >>> METALS & COLORS
+05:50.673 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+05:51.406 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+05:51.478 [JDI:INFO]: Page 'Metals Colors Page' opened
+05:52.106 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:52.206 [JDI:STEP]: >>> 1
+05:52.216 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:52.662 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:52.762 [JDI:STEP]: >>> 3
+05:52.772 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:52.872 [JDI:STEP]: >>> 3
+05:52.882 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:53.12 [JDI:STEP]: >>> 5
+05:53.22 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:53.122 [JDI:STEP]: >>> 5
+05:53.122 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:53.232 [JDI:STEP]: >>> 7
+05:53.242 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:53.342 [JDI:STEP]: >>> 7
+05:53.352 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:53.462 [JDI:STEP]: >>> 2
+05:53.472 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:53.572 [JDI:STEP]: >>> 2
+05:53.582 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:53.702 [JDI:STEP]: >>> 4
+05:53.712 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:53.802 [JDI:STEP]: >>> 4
+05:53.812 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:53.923 [JDI:STEP]: >>> 6
+05:53.933 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:54.33 [JDI:STEP]: >>> 6
+05:54.43 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:54.163 [JDI:STEP]: >>> 8
+05:54.163 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+05:54.273 [JDI:STEP]: >>> 8
+05:54.283 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+06:59.623 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+07:00.93 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+07:08.613 [JDI:INFO]: Page 'Jdi Home Page' opened
+07:08.773 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+07:10.336 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+07:11.125 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@1ec7422 (JdiSite.loginForm (css='#login-form'))
+07:12.874 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+07:13.726 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:13.886 [JDI:STEP]: >>> HOME
+07:13.896 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:14.26 [JDI:STEP]: >>> CONTACT FORM
+07:14.36 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:14.136 [JDI:STEP]: >>> SERVICE
+07:14.146 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:14.256 [JDI:STEP]: >>> METALS & COLORS
+07:14.266 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:15.367 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+07:15.413 [JDI:INFO]: Page 'Metals Colors Page' opened
+07:15.973 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:16.83 [JDI:STEP]: >>> 1
+07:16.93 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:16.458 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:16.559 [JDI:STEP]: >>> 3
+07:16.559 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:16.659 [JDI:STEP]: >>> 3
+07:16.659 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:16.813 [JDI:STEP]: >>> 5
+07:16.823 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:16.923 [JDI:STEP]: >>> 5
+07:16.923 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:17.33 [JDI:STEP]: >>> 7
+07:17.43 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:17.133 [JDI:STEP]: >>> 7
+07:17.143 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:17.253 [JDI:STEP]: >>> 2
+07:17.253 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:17.354 [JDI:STEP]: >>> 2
+07:17.354 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:17.717 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:17.816 [JDI:STEP]: >>> 4
+07:17.816 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:17.916 [JDI:STEP]: >>> 4
+07:17.916 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:18.26 [JDI:STEP]: >>> 6
+07:18.36 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:18.136 [JDI:STEP]: >>> 6
+07:18.146 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:18.309 [JDI:STEP]: >>> 8
+07:18.309 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:18.409 [JDI:STEP]: >>> 8
+07:18.749 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+07:18.943 [JDI:STEP]: >>> Water
+07:18.953 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+07:19.384 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+07:19.504 [JDI:STEP]: >>> Earth
+07:19.504 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+07:19.634 [JDI:STEP]: >>> Wind
+07:19.644 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+07:19.774 [JDI:STEP]: >>> Fire
+07:19.784 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+07:20.175 [JDI:STEP]: Select 'Red' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+07:23.258 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-22-07-22screen.jpg
+07:23.258 [JDI:ERROR]: >>> MetalsColorsForm.metal (>css='.form'>css='div[ui='combobox']')
+07:24.77 [JDI:INFO]: Screenshot: C:\Users\ПК\IdeaProjects\IvanovaMariiaHW8\target\.logs\screens\2020-09-15-22-07-23FailedSelect.jpg
+07:24.97 [JDI:ERROR]: Url: https://jdi-testing.github.io/jdi-light/metals-colors.html
+07:24.97 [JDI:ERROR]: Failed actions chain: Dropdown.select(String)
+07:24.117 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+07:25.251 [JDI:INFO]: Page 'Jdi Home Page' opened
+07:25.363 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+07:26.137 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:26.266 [JDI:STEP]: >>> HOME
+07:26.276 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:26.387 [JDI:STEP]: >>> CONTACT FORM
+07:26.397 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:26.537 [JDI:STEP]: >>> SERVICE
+07:26.547 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:26.657 [JDI:STEP]: >>> METALS & COLORS
+07:26.677 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+07:27.406 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+07:27.437 [JDI:INFO]: Page 'Metals Colors Page' opened
+07:27.993 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:28.103 [JDI:STEP]: >>> 1
+07:28.113 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:28.512 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:28.640 [JDI:STEP]: >>> 3
+07:28.650 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:28.740 [JDI:STEP]: >>> 3
+07:28.750 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:28.860 [JDI:STEP]: >>> 5
+07:28.870 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:28.970 [JDI:STEP]: >>> 5
+07:28.980 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:29.90 [JDI:STEP]: >>> 7
+07:29.100 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:29.190 [JDI:STEP]: >>> 7
+07:29.200 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:29.310 [JDI:STEP]: >>> 2
+07:29.320 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:29.420 [JDI:STEP]: >>> 2
+07:29.420 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:29.540 [JDI:STEP]: >>> 4
+07:29.560 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:29.650 [JDI:STEP]: >>> 4
+07:29.660 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:29.770 [JDI:STEP]: >>> 6
+07:29.780 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+07:29.870 [JDI:STEP]: >>> 6
+07:29.880 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+08:51.284 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+08:51.724 [JDI:INFO]: Use driver path: C:\driver\chrome\chromedriver.exe
+08:59.679 [JDI:INFO]: Page 'Jdi Home Page' opened
+08:59.839 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+09:01.477 [JDI:STEP]: Click on 'User Icon' (JdiSite.userIcon (css='#user-icon'))
+09:02.340 [JDI:STEP]: Submit 'Login Form' with hw8.data.entities.User@1624c7 (JdiSite.loginForm (css='#login-form'))
+09:04.338 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+09:05.239 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:05.419 [JDI:STEP]: >>> HOME
+09:05.439 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:05.569 [JDI:STEP]: >>> CONTACT FORM
+09:05.579 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:05.699 [JDI:STEP]: >>> SERVICE
+09:05.709 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:05.809 [JDI:STEP]: >>> METALS & COLORS
+09:05.819 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:06.847 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+09:06.898 [JDI:INFO]: Page 'Metals Colors Page' opened
+09:07.456 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:07.556 [JDI:STEP]: >>> 1
+09:07.566 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:07.945 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:08.66 [JDI:STEP]: >>> 3
+09:08.76 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:08.166 [JDI:STEP]: >>> 3
+09:08.176 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:08.276 [JDI:STEP]: >>> 5
+09:08.286 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:08.376 [JDI:STEP]: >>> 5
+09:08.376 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:08.486 [JDI:STEP]: >>> 7
+09:08.496 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:08.586 [JDI:STEP]: >>> 7
+09:08.596 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:08.696 [JDI:STEP]: >>> 2
+09:08.706 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:08.797 [JDI:STEP]: >>> 2
+09:08.807 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:09.150 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:09.246 [JDI:STEP]: >>> 4
+09:09.246 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:09.346 [JDI:STEP]: >>> 4
+09:09.346 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:09.456 [JDI:STEP]: >>> 6
+09:09.466 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:09.556 [JDI:STEP]: >>> 6
+09:09.566 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:09.666 [JDI:STEP]: >>> 8
+09:09.676 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:09.767 [JDI:STEP]: >>> 8
+09:10.107 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:10.207 [JDI:STEP]: >>> Water
+09:10.217 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+09:10.579 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:10.683 [JDI:STEP]: >>> Earth
+09:10.693 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:10.793 [JDI:STEP]: >>> Wind
+09:10.803 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:10.903 [JDI:STEP]: >>> Fire
+09:10.913 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+09:11.265 [JDI:STEP]: Select 'Red' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+09:13.358 [JDI:STEP]: Select 'Gold' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+09:15.399 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:15.636 [JDI:STEP]: >>> Vegetables
+09:15.636 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:17.636 [JDI:STEP]: Select 'Cucumber' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:18.642 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData{summary=[1, 2], elements=[Water, Fire], color='Red', metals='Gold', vegetables=[Cucumber]} (MetalsColorsPage.metalsColorsForm (css='.form'))
+09:19.128 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+09:20.475 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:20.580 [JDI:STEP]: >>> Summary: 3
+09:20.589 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:20.688 [JDI:STEP]: >>> Elements: Water, Fire
+09:20.698 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:20.809 [JDI:STEP]: >>> Color: Red
+09:20.821 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:20.926 [JDI:STEP]: >>> Metal: Gold
+09:20.933 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:21.35 [JDI:STEP]: >>> Vegetables: Cucumber
+09:21.45 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+09:22.179 [JDI:INFO]: Page 'Jdi Home Page' opened
+09:22.288 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+09:23.118 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:23.248 [JDI:STEP]: >>> HOME
+09:23.278 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:23.388 [JDI:STEP]: >>> CONTACT FORM
+09:23.398 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:23.604 [JDI:STEP]: >>> SERVICE
+09:23.614 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:23.734 [JDI:STEP]: >>> METALS & COLORS
+09:23.734 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:24.424 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+09:24.476 [JDI:INFO]: Page 'Metals Colors Page' opened
+09:25.18 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:25.118 [JDI:STEP]: >>> 1
+09:25.128 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:25.493 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:25.594 [JDI:STEP]: >>> 3
+09:25.604 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:25.684 [JDI:STEP]: >>> 3
+09:25.694 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:25.804 [JDI:STEP]: >>> 5
+09:25.814 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:25.895 [JDI:STEP]: >>> 5
+09:25.905 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.15 [JDI:STEP]: >>> 7
+09:26.25 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.115 [JDI:STEP]: >>> 7
+09:26.115 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.225 [JDI:STEP]: >>> 2
+09:26.235 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.335 [JDI:STEP]: >>> 2
+09:26.345 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.445 [JDI:STEP]: >>> 4
+09:26.445 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.555 [JDI:STEP]: >>> 4
+09:26.565 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.675 [JDI:STEP]: >>> 6
+09:26.685 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.775 [JDI:STEP]: >>> 6
+09:26.785 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.896 [JDI:STEP]: >>> 8
+09:26.906 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:26.986 [JDI:STEP]: >>> 8
+09:26.996 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:27.724 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:27.824 [JDI:STEP]: >>> Water
+09:27.834 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:27.938 [JDI:STEP]: >>> Earth
+09:27.948 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+09:28.308 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:28.404 [JDI:STEP]: >>> Wind
+09:28.414 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+09:28.768 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:28.871 [JDI:STEP]: >>> Fire
+09:28.871 [JDI:STEP]: Select 'Green' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+09:30.966 [JDI:STEP]: Select 'Silver' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+09:32.992 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:33.205 [JDI:STEP]: >>> Vegetables
+09:33.215 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:35.365 [JDI:STEP]: Select 'Tomato' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:36.420 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:37.466 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData{summary=[1, 8], elements=[Earth, Wind], color='Green', metals='Silver', vegetables=[Tomato, Vegetables]} (MetalsColorsPage.metalsColorsForm (css='.form'))
+09:37.937 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+09:39.460 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:39.570 [JDI:STEP]: >>> Summary: 9
+09:39.570 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:39.680 [JDI:STEP]: >>> Elements: Earth, Wind
+09:39.690 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:39.800 [JDI:STEP]: >>> Color: Green
+09:39.800 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:39.920 [JDI:STEP]: >>> Metal: Silver
+09:39.930 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:40.30 [JDI:STEP]: >>> Vegetables: Tomato, Vegetables
+09:40.30 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+09:40.836 [JDI:INFO]: Page 'Jdi Home Page' opened
+09:40.947 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+09:41.767 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:41.874 [JDI:STEP]: >>> HOME
+09:41.884 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:41.994 [JDI:STEP]: >>> CONTACT FORM
+09:42.04 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:42.104 [JDI:STEP]: >>> SERVICE
+09:42.114 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:42.224 [JDI:STEP]: >>> METALS & COLORS
+09:42.234 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+09:42.870 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+09:42.919 [JDI:INFO]: Page 'Metals Colors Page' opened
+09:43.464 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:43.564 [JDI:STEP]: >>> 1
+09:43.574 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:43.664 [JDI:STEP]: >>> 1
+09:43.674 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:43.784 [JDI:STEP]: >>> 3
+09:43.794 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:43.887 [JDI:STEP]: >>> 3
+09:43.897 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:43.997 [JDI:STEP]: >>> 5
+09:44.07 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:44.97 [JDI:STEP]: >>> 5
+09:44.120 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:44.224 [JDI:STEP]: >>> 7
+09:44.234 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:44.637 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:44.770 [JDI:STEP]: >>> 2
+09:44.777 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:44.867 [JDI:STEP]: >>> 2
+09:44.877 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:44.987 [JDI:STEP]: >>> 4
+09:44.997 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:45.87 [JDI:STEP]: >>> 4
+09:45.97 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:45.207 [JDI:STEP]: >>> 6
+09:45.217 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:45.307 [JDI:STEP]: >>> 6
+09:45.317 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:45.427 [JDI:STEP]: >>> 8
+09:45.437 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:45.527 [JDI:STEP]: >>> 8
+09:45.527 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+09:46.197 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:46.307 [JDI:STEP]: >>> Water
+09:46.307 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:46.417 [JDI:STEP]: >>> Earth
+09:46.427 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+09:46.784 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:46.887 [JDI:STEP]: >>> Wind
+09:46.897 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+09:47.07 [JDI:STEP]: >>> Fire
+09:47.17 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+09:47.374 [JDI:STEP]: Select 'Blue' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+09:49.459 [JDI:STEP]: Select 'Bronze' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+09:51.558 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:51.771 [JDI:STEP]: >>> Vegetables
+09:51.781 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:53.841 [JDI:STEP]: Select 'Tomato' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:55.63 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:56.114 [JDI:STEP]: Select 'Onion' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+09:57.261 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData{summary=[7, 8], elements=[Earth, Fire], color='Blue', metals='Bronze', vegetables=[Tomato, Vegetables, Onion]} (MetalsColorsPage.metalsColorsForm (css='.form'))
+09:57.760 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+09:59.293 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:59.403 [JDI:STEP]: >>> Summary: 15
+09:59.413 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:59.513 [JDI:STEP]: >>> Elements: Earth, Fire
+09:59.523 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:59.623 [JDI:STEP]: >>> Color: Blue
+09:59.623 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:59.733 [JDI:STEP]: >>> Metal: Bronze
+09:59.743 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+09:59.853 [JDI:STEP]: >>> Vegetables: Tomato, Vegetables, Onion
+09:59.853 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+10:00.687 [JDI:INFO]: Page 'Jdi Home Page' opened
+10:00.796 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+10:01.606 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:01.703 [JDI:STEP]: >>> HOME
+10:01.713 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:01.813 [JDI:STEP]: >>> CONTACT FORM
+10:01.823 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:01.933 [JDI:STEP]: >>> SERVICE
+10:01.943 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:02.53 [JDI:STEP]: >>> METALS & COLORS
+10:02.63 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:02.682 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+10:02.719 [JDI:INFO]: Page 'Metals Colors Page' opened
+10:03.266 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:03.366 [JDI:STEP]: >>> 1
+10:03.376 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:03.466 [JDI:STEP]: >>> 1
+10:03.476 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:03.586 [JDI:STEP]: >>> 3
+10:03.596 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:03.693 [JDI:STEP]: >>> 3
+10:03.713 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:03.823 [JDI:STEP]: >>> 5
+10:03.833 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:04.271 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:04.378 [JDI:STEP]: >>> 7
+10:04.385 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:04.476 [JDI:STEP]: >>> 7
+10:04.486 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:04.586 [JDI:STEP]: >>> 2
+10:04.596 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:04.686 [JDI:STEP]: >>> 2
+10:04.696 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:04.806 [JDI:STEP]: >>> 4
+10:04.816 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:04.906 [JDI:STEP]: >>> 4
+10:04.916 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:05.26 [JDI:STEP]: >>> 6
+10:05.36 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:05.126 [JDI:STEP]: >>> 6
+10:05.136 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:05.515 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:05.621 [JDI:STEP]: >>> 8
+10:05.634 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:05.726 [JDI:STEP]: >>> 8
+10:06.67 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+10:06.167 [JDI:STEP]: >>> Water
+10:06.177 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+10:06.534 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+10:06.636 [JDI:STEP]: >>> Earth
+10:06.646 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+10:06.756 [JDI:STEP]: >>> Wind
+10:06.766 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+10:07.109 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+10:07.209 [JDI:STEP]: >>> Fire
+10:07.209 [JDI:STEP]: Select 'Yellow' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+10:09.449 [JDI:STEP]: Select 'Selen' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+10:11.619 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:11.850 [JDI:STEP]: >>> Vegetables
+10:11.850 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:13.907 [JDI:STEP]: Select 'Cucumber' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:14.918 [JDI:STEP]: Select 'Onion' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:16.57 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData{summary=[5, 6], elements=[Water, Wind], color='Yellow', metals='Selen', vegetables=[Cucumber, Onion]} (MetalsColorsPage.metalsColorsForm (css='.form'))
+10:16.520 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+10:17.863 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:17.963 [JDI:STEP]: >>> Summary: 11
+10:17.973 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:18.73 [JDI:STEP]: >>> Elements: Water, Wind
+10:18.83 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:18.193 [JDI:STEP]: >>> Color: Yellow
+10:18.203 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:18.303 [JDI:STEP]: >>> Metal: Selen
+10:18.313 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:18.423 [JDI:STEP]: >>> Vegetables: Cucumber, Onion
+10:18.423 [JDI:STEP]: Open 'Jdi Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) (Jdi Home Page)
+10:19.220 [JDI:INFO]: Page 'Jdi Home Page' opened
+10:19.330 [JDI:STEP]: Check that 'Jdi Home Page' is opened (url CONTAINS 'index.html'; title EQUALS 'Home Page') (Jdi Home Page)
+10:20.140 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:20.246 [JDI:STEP]: >>> HOME
+10:20.256 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:20.356 [JDI:STEP]: >>> CONTACT FORM
+10:20.366 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:20.476 [JDI:STEP]: >>> SERVICE
+10:20.486 [JDI:STEP]: Get '' text (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:20.596 [JDI:STEP]: >>> METALS & COLORS
+10:20.606 [JDI:STEP]: Click on '' (WebElement->css: .uui-navigation.nav.navbar-nav.m-l8 li)
+10:21.238 [JDI:STEP]: Check that 'Metals Colors Page' is opened (url CONTAINS '/metals-colors.html'; title EQUALS 'Metal and Colors') (Metals Colors Page)
+10:21.295 [JDI:INFO]: Page 'Metals Colors Page' opened
+10:21.863 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:21.993 [JDI:STEP]: >>> 1
+10:22.03 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:22.153 [JDI:STEP]: >>> 1
+10:22.163 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:22.300 [JDI:STEP]: >>> 3
+10:22.310 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:22.420 [JDI:STEP]: >>> 3
+10:22.430 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:22.724 [JDI:STEP]: >>> 5
+10:22.734 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:22.874 [JDI:STEP]: >>> 5
+10:22.884 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:23.24 [JDI:STEP]: >>> 7
+10:23.34 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:23.496 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:23.606 [JDI:STEP]: >>> 2
+10:23.615 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:23.706 [JDI:STEP]: >>> 2
+10:23.716 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:24.86 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:24.186 [JDI:STEP]: >>> 4
+10:24.196 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:24.286 [JDI:STEP]: >>> 4
+10:24.286 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:24.416 [JDI:STEP]: >>> 6
+10:24.426 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:24.516 [JDI:STEP]: >>> 6
+10:24.516 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:24.626 [JDI:STEP]: >>> 8
+10:24.636 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #summary-block .info-panel-section label)
+10:24.736 [JDI:STEP]: >>> 8
+10:25.86 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+10:25.186 [JDI:STEP]: >>> Water
+10:25.196 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+10:25.564 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+10:25.670 [JDI:STEP]: >>> Earth
+10:25.680 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+10:26.34 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+10:26.136 [JDI:STEP]: >>> Wind
+10:26.146 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+10:26.505 [JDI:STEP]: Get '' text (WebElement->css: .form->css: #elements-checklist label)
+10:26.603 [JDI:STEP]: >>> Fire
+10:26.613 [JDI:STEP]: Click on '' (WebElement->css: .form->css: #elements-checklist label)
+10:26.981 [JDI:STEP]: Select 'Blue' in 'Colors' (MetalsColorsForm.colors (>css='.form'>css='div[ui='dropdown']'))
+10:29.170 [JDI:STEP]: Select 'Selen' in 'Metals' (MetalsColorsForm.metals (>css='.form'>css='div[ui='combobox']'))
+10:31.318 [JDI:STEP]: Check that 'Vegetables' is displayed (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:31.550 [JDI:STEP]: >>> Vegetables
+10:31.550 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:33.841 [JDI:STEP]: Select 'Cucumber' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:34.865 [JDI:STEP]: Select 'Tomato' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:35.919 [JDI:STEP]: Select 'Vegetables' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:37.18 [JDI:STEP]: Select 'Onion' in 'Vegetables' (MetalsColorsForm.vegetables (>css='.form'>css='#vegetables'))
+10:38.313 [JDI:STEP]: Check that 'Metals Colors Form' values are: MetalsAndColorsData{summary=[7, 2], elements=[Water, Earth, Wind, Fire], color='Blue', metals='Selen', vegetables=[Cucumber, Tomato, Vegetables, Onion]} (MetalsColorsPage.metalsColorsForm (css='.form'))
+10:38.863 [JDI:STEP]: Submit 'Metals Colors Form' and press 'submit' button (MetalsColorsPage.metalsColorsForm (css='.form'))
+10:40.228 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:40.368 [JDI:STEP]: >>> Summary: 9
+10:40.378 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:40.498 [JDI:STEP]: >>> Elements: Water, Earth, Wind, Fire
+10:40.508 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:40.608 [JDI:STEP]: >>> Color: Blue
+10:40.618 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:40.718 [JDI:STEP]: >>> Metal: Selen
+10:40.728 [JDI:STEP]: Get '' text (WebElement->css: .panel-body-list.results li)
+10:40.838 [JDI:STEP]: >>> Vegetables: Cucumber, Tomato, Vegetables, Onion
